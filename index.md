@@ -34,7 +34,7 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-[Link to another page](./page1.html).
+[Link to another page](./page1.md).
 
 ### Jekyll Themes
 
