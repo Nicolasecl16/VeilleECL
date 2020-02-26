@@ -1,3 +1,9 @@
+---
+layout: default
+title: default
+description: default
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Daniel-Dht/VeilleECL/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
