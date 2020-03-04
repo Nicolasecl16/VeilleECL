@@ -14,6 +14,7 @@ La rasterisation est utilisée depuis les années 90, presque tous les jeux que 
 <p style='text-align: justify;'> 
 La rasterisation consiste à mapper uniquement les points de l'espace 3D visibles depuis la caméra sur le plan 2D qui consituera l'image finale. Le schéma si dessous a pour but de d'expliquer simplement les étape clés.
 </p>
+
 ![Image](img_rast.png)
 
 <p style='text-align: justify;'> 
