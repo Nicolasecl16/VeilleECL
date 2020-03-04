@@ -23,7 +23,7 @@ Avant de rentrer dans les détails techniques, commençons par analyser brièvem
 
 ## Sommaire
 - [La rasterisation](./rasterization.md).
-- [Le Ray Tracing](./page1.md).
+- [Le Ray Tracing](./raytracing.md).
 - [Technique de Denoising](./page1.md).
 - [Technologie RTX](./page1.md).
 - [Futur du Ray Tracing temps réel](./page1.md).
