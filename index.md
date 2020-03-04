@@ -16,17 +16,14 @@ Ce site constitue le résultat du travail de synthèse sur le Ray-Tracing temps 
   Le Ray-tracing est une technique de rendu 3D bien connue et vieille depuis maintenant 40 ans ! Elle permet des rendues extremement réalistes. De plus l'implémentation du code de base reste très accessible et en fait souvent un exercice de choix dans les cursus informatiques. Cependant elle a toujours eu un certains retard par rapport à une autre technique de rendu 3D: la rasterization. En effet, malgrés la qualité ultra-réaliste obtenue grâce au ray-tracing, cette technique n'a été que peu, voir presque pas utilisée en temps réel du fait de son énorme consommation en ressources. Au début des années 2000, le Ray-Tracing a néanmoins commencé à être fortement utilisé dans l'industrie de l'animation/CGI, où le temps d'execution des algorithmes est un problême moindre. Mais depuis quelques années, grâce au hardware de plus en plus performant, l'industrie du jeux vidéo a commencé à envisager les ray-tracing dans ses moteurs graphiques. 
 </p>
 <p style='text-align: justify;'> 
-Avant de rentrer dans les détails techniques, commençons par analyser brièvement la rasterisation,ses atouts et ses limites et ainsi comprendre pourquoi le ray-tracing commence à entrer en jeux aujourd'hui. 
-  
--> [La rasterisation](./page1.md)
+Avant de rentrer dans les détails techniques, commençons par analyser brièvement la rasterisation,ses atouts et ses limites et ainsi comprendre pourquoi le ray-tracing commence à entrer en jeux aujourd'hui. [La rasterisation](./rasterization.md).
 </p>
 
-### Sommaire
-- [La rasterisation](./page1.md)
-- [Le Ray Tracing](./page1.md)
-- [Technique de Denoising](./page1.md) 
-- [Technologie RTX](./page1.md) 
-- [Futur du Ray Tracing temps réel](./page1.md) 
+[La rasterisation](./rasterization.md).
+[Le Ray Tracing](./page1.md).
+[Technique de Denoising](./page1.md).
+[Technologie RTX](./page1.md).
+[Futur du Ray Tracing temps réel](./page1.md).
 
 
 ```markdown
