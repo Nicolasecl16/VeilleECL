@@ -24,10 +24,18 @@ Un rayon n'est rien d'autre qu'une droite qu'on définit par un point (l'origine
 Sur le schéma ci-dessus, la grille représente notre image finale. Dans le monde 3D, elle se représente par un plan situé entre notre caméra et la scène à visualiser. Chaque cellule de la grille représente un pixel. Pour colorer un pixel, on  "lance" un rayon ayant pour orgine la caméra et pour direction le pixel, la couleur de celui-ci sera définie par les matériaux des objects de la scène intersecté par le rayon. 
 </p>
 
-Pour faire le parallèle avec la rasterisation:
-
+Pour faire le parallèle avec la rastérisation:
 - la rastérisation amène les objets jusqu'au pixel.
 - le ray tracing amène le pixel jusqu'aux objets.
+
+Le papier précurseur de tout cela est de Whitted, et date de 1980.
+
+<p align="center"><img src="img_RTwhitted.png" alt="alt text" width="580"></p>
+
+Deux autres papiers ont suivies les années suivantes
+- Cook, 1984: ajout des ombres douces
+- Kajiya 1986: ajout de l'illumination globale
+
 
 ```cpp
   Color TracePath(Ray ray, count depth) {
