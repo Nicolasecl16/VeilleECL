@@ -19,7 +19,7 @@ Ce site constitue le résultat du travail de synthèse sur le Ray-Tracing temps 
 Avant de rentrer dans les détails techniques, commençons par analyser brièvement la rasterisation,ses atouts et ses limites et ainsi comprendre pourquoi le ray-tracing commence à entrer en jeux aujourd'hui.   
 </p>
 <p style='text-align: justify;'> 
- -> [Rasterisation](./rasterization.md).
+ -> <a href="./rasterization.html"> Rasterisation </a>
 </p>
 
 ## Sommaire
