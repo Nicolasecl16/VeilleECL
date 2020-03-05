@@ -8,9 +8,26 @@ description: default
 
 ## Ray Tracing 
 
+
 <p style='text-align: justify;'> 
-patatipatata
+Ne réinventons pas la roue, et tenons nous en à wikipedia pour ce qui est des définitions:
 </p>
+
+<p style='text-align:justify; background-color:#f3f6fa'> 
+  «Le ray tracing (« lancer de rayons » en français) est une technique de calcul d'optique par ordinateur, utilisée pour le rendu en synthèse d'image ou pour des études de systèmes optiques. Elle consiste à simuler le parcours inverse de la lumière : on calcule les éclairages de la caméra vers les objets puis vers les lumières, alors que dans la réalité la lumière va de la scène vers l'œil.»
+</p>
+
+<p align="center"><img src="img_RTschema.png" alt="alt text" width="380"></p>
+
+<p style='text-align: justify;'> 
+Un rayon n'est rien d'autre qu'une droite qu'on définit par un point (l'origine du rayon) et un vecteur directeur.
+Sur le schéma ci-dessus, la grille représente notre image finale. Dans le monde 3D, elle se représente par un plan situé entre notre caméra et la scène à visualiser. Chaque cellule de la grille représente un pixel. Pour colorer un pixel, on  "lance" un rayon ayant pour orgine la caméra et pour direction le pixel, la couleur de celui-ci sera définie par les matériaux des objects de la scène intersecté par le rayon. 
+</p>
+
+Pour faire le parallèle avec la rasterisation:
+
+- la rastérisation amène les objets jusqu'au pixel.
+- le ray tracing amène le pixel jusqu'aux objets.
 
 ```cpp
   Color TracePath(Ray ray, count depth) {
