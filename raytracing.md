@@ -64,6 +64,13 @@ Pour bien approximer l'ensemble des rayons de cet hémisphère, il faut envoyer 
 
 <p align="center"><img src="img_wikiRTnoise.png" alt="noise img" width="380"></p>
 
+<p style='text-align: justify;'> 
+L'opération doit en plus être répétée à chaque rebonds, pour que la lumière puisse vraiment parcourir toute la scène, et que les objets réfléchisse la lumière qui reçoivent sur les autres: ci dessous un exemple avec respectivement 1 et 2 rebonds par rayons.
+</p>
+
+<p align="center"><img src="img_RTbounce.png" alt="noise img" width="580"></p>
+
+
 <details>
   
 <summary>Voici un pseudo code simple de Ray Tracing avec illumination globale</summary>
@@ -115,6 +122,18 @@ Pour bien approximer l'ensemble des rayons de cet hémisphère, il faut envoyer 
   }
 ```
 
+</details>
+
+# A collapsible section containing code
+<details>
+  <summary>Click to expand!</summary>
+  
+  ```javascript
+    function whatIsLove() {
+      console.log('Baby Don't hurt me. Don't hurt me');
+      return 'No more';
+    }
+  ```
 </details>
 
 
