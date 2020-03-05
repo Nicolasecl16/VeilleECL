@@ -59,7 +59,7 @@ Si l'on se réfère au premier schéma, on comprends qu'un pixel ne sera colori�
 <p align="center"><img src="img_RT_GBschema.png" alt="schema illumination globale"></p>
 
 <p style='text-align: justify;'> 
-Pour bien approximer l'ensemble des rayons de cet hémisphère, il faut envoyer suffisamment de rayons, sinon l'image sera bruitée. Pour chaque pixel, on va donc envoyer plusieur rayons: on obtient généralement un résultat acceptable pour au moins 100 rayons/pixel. Ci dessous un exemple de la même image généré avec respectivement 1, 2, 4 , 8 , 16, etc.. rayons/pixels
+Pour bien approximer l'ensemble des rayons de cet hémisphère, il faut envoyer suffisamment de rayons, sinon l'image sera bruitée. Pour chaque pixel, on va donc envoyer plusieur rayons: on obtient généralement un résultat acceptable pour au moins 100 rayons/pixel. Ci dessous un exemple de la même image généré avec respectivement 1, 2, 4, 8, 16, etc.. rayons/pixels
 </p>
 
 <p align="center"><img src="img_wikiRTnoise.png" alt="noise img" width="380"></p>
@@ -70,6 +70,15 @@ L'opération doit en plus être répétée à chaque rebonds, pour que la lumiè
 
 <p align="center"><img src="img_RTbounce.png" alt="noise img" width="580"></p>
 
+<p style='text-align: justify;'> 
+Pour converger vers l'image finale nette, il faut donc plusieurs centaines, voir milliers de rayons par pixel. Même porté sur GPU et très bien optimisé, cela n'est pas faisable et prends plusieurs secondes de calculs pour des scènes bien fournies. D'autant plus que contrairement à la rasterisation, doubler la résolution de l'image est fatale pour le raytracing. Il faut donc trouver d'autres méthode pour se prapporcher du temps réel, qui demande un minimum de 16 millisecondes par image pour obtenir un 60 FPS décent. 
+
+Une première méthode consiste à débruiter les images, et ne se contenter que de quelques rayons par pixels:
+ <a href="./raytracing.html"> Technique de denoising temps réel </a>. 
+</p>
+
+
+### Pseudo code simple de Ray-Tracing avec illumination globale
 
 <details>
   
@@ -123,25 +132,3 @@ L'opération doit en plus être répétée à chaque rebonds, pour que la lumiè
 ```
 
 </details>
-
-# A collapsible section containing code
-<details>
-  <summary>Click to expand!</summary>
-  
-  ```javascript
-    function whatIsLove() {
-      console.log('Baby Don't hurt me. Don't hurt me');
-      return 'No more';
-    }
-  ```
-</details>
-
-
-<p style='text-align: justify;'> 
-
-</p>
-
-<p style='text-align: justify;'> 
- <a href="./raytracing.html"> Technique de denoising temps réel </a>. 
-</p>
-
