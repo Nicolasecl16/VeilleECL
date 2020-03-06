@@ -33,9 +33,8 @@ Mais le principal atout est la synergie rasterisation/ray tracing qu'offre DXT. 
 </p>
 
 <p style='text-align:justify;'> 
-Un autre atout pour Microsoft est le timing de la sortie d prochaine XBox, qui pourra bénificer de la technologie DXT. Plusieurs viéos sont disponibles en ligne (liens ci-dessous), faisant l'étalage des possibilité offerte par DXT. 
+Un autre atout pour Microsoft est le timing de la sortie d prochaine XBox, qui pourra bénificer de la technologie DXT. Plusieurs vidéos sont disponibles en ligne (liens ci-dessous), faisant l'étalage des possibilités offertes par DXT. 
 </p>
-
 
 <p align="center"> <i>SEED, Electronic Arts :</i></p>
 <p align="center">
@@ -51,10 +50,21 @@ Un autre atout pour Microsoft est le timing de la sortie d prochaine XBox, qui p
   </a>.
 </p>
 
+<p style='text-align:justify;'> 
+La technologie RTX mise en vant par Nvidia est une plateforme de devoppement specifiquement dédié au raytracing pilotable depuis DIrextX. C'est cette technologie à la base des images que l'on peut voir circulé un peu patout sur internet, et qui font grands bruits sur les grosses liscences telles que Mincraft. On a la possibilité d'activer ou non le ray Tracing. Si on le fait c'est souvent au détriment du nombre de FPS, mais comme on peut le voir sur les images ci-dessous, on obtient un gain signigficatif de réalisme, notemment sur les reflets.
+</p>
 
 <p align="center"><img src="img_RT_minecraft.png" alt="minecraft" width="600"></p>
 
 <p align="center"><img src="img_RT_battlefiled5.png" alt="battlfield5" width="600"></p>
 
+
+## Références
+
+NVidia, BRIAN CAULFIELD, https://blogs.nvidia.com/blog/2018/03/19/whats-difference-between-ray-tracing-rasterization/
+
+NVidia, https://www.nvidia.com/en-us/geforce/news/geforce-gtx-dxr-ray-tracing-available-now/
+
+NVidia, https://developer.nvidia.com/rtx/raytracing/dxr/DX12-Raytracing-tutorial-Part-1
 
 
