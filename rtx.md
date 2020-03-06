@@ -12,10 +12,15 @@ description: default
 ## Technologie RTX
 
 <p style='text-align: justify;'> 
-Comme on l'a vu précedemment, le ray tracing avec illumination gloabal (méthode de Monte Carlo) ne converge pas vers des images nettes sans un nombre conséquent de rayons lancés par pixel. Si l'on se place dans un contexte temps réel, e.g un temps de calcul par image inferieur à 16 ms, les images seront forcément bruitées. 
+En 2018, Microsoft annonce la sortie de DirectX Raytracing à la GDC (Game Developers Conference). C'est cette sortie qui va permettre l'implémentation du ray tracing dans les grosses liscences sorties les deux dernières années comme Battlefield 5 ou Minecraft.
 </p>
 
-<p align="center"><img src="img_noise.png" alt="noisy image" width="600"></p>
+<p style='text-align:justify;'> 
+Microsoft DirectX est une collection de bibliothèques destinées à la programmation d’applications multimédia, plus particulièrement de jeux ou de programmes faisant intervenir de la vidéo, sur les plates-formes Microsoft (Xbox, systèmes d’exploitation Windows). Sortie en 1995, DirextX est aujourd'hui largement répandue et utilisée dans la plupart des moteurs de jeux. DirextX Raytracing est donc une pierre de plus à l'édifice d'API déja déployé comme Direct3D.
+</p>
+
+
+<p align="center"><img src="img_RT_minecraft.png" alt="minecraft" width="600"></p>
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=HSmm_vEVs10"> 
