@@ -6,7 +6,7 @@ description: default
 
 [Retour sommaire](./) 
 <p>
-<a href="./rt_denoising.html">Retour chapite Rastérisation </a>
+<a href="./rt_rasterization.html">Retour chapite Rastérisation </a>
 </p>
 
 ## Ray Tracing 
@@ -83,11 +83,6 @@ Une première méthode consiste à débruiter les images, et de ne se contenter 
 
 ### Pseudo code simple de Ray-Tracing avec illumination globale
 
-<details>
-  
-<summary>Voici un pseudo code simple de Ray Tracing avec illumination globale</summary>
-
-
 ```cpp
   Color TracePath(Ray ray, count depth) {
     if (depth >= MaxDepth) {
@@ -133,5 +128,3 @@ Une première méthode consiste à débruiter les images, et de ne se contenter 
     }
   }
 ```
-
-</details>
