@@ -15,13 +15,13 @@ description: default
 Comme on l'a vu précedemment, le ray tracing avec illumination gloabal (méthode de Monte Carlo) ne converge pas vers des images nettes sans un nombre conséquent de rayons lancés par pixel. Si l'on se place dans un contexte temps réel, e.g un temps de calcul par image inferieur à 16 ms, les images seront forcément bruitées. 
 </p>
 
-<p align="center"><img src="img_noise.png" alt="noisy image" width="380"></p>
+<p align="center"><img src="img_noise.png" alt="noisy image" width="600"></p>
 
 <p style='text-align: justify;'> 
 La technique de denoising consiste donc à ne lancer que quelques rayons par pixel, et d'appliquer des filtres sur l'image bruitée. Cela fait plusieurs années (début des années 2010) que le sujet est creusé par de nombreuses recherches, notemment l'industrie du cinéma d'animation, où la grande qualité des images et le complexité des scènes necessitent parfois jusqu'à des dizaines d'heures par image. Les studios Disney ont sortie de nombreux papiers depuis (https://studios.disneyresearch.com/category/rendering/).
 </p>
 
-<p align="center"><img src="img_disney.png" alt="noisy image" width="580"></p>
+<p align="center"><img src="img_disney.png" alt="noisy image" width="600"></p>
 
 <p style='text-align: justify;'> 
 Cependant, ces recherches n'avaient pas pour objectif un rendu temps réel, et les algorithmes developpé rendent des images souvent dans un ordre de grandeur de une à 10 minutes par image. EN 2017, NVidia, très impliquée dans la course au Ray Tracing temps réel, a sortie un résultat de recherche présentant un denoising temp réel à un seul rayon/pixel avec une qualité comparable à un rendu à 2000 rayons/pixel. Le résultat est visible sur la vidéo ci-dessous de <i>Two Minutes Papers</i>.
