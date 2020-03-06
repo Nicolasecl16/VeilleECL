@@ -58,6 +58,18 @@ La technologie RTX mise en vant par Nvidia est une plateforme de devoppement spe
 
 <p align="center"><img src="img_RT_battlefiled5.png" alt="battlfield5" width="600"></p>
 
+<p style='text-align:justify;'> 
+Néanmoins, toutes les cartes graphiques ne sont pas capables de supporter le RTX:
+</p>
+
+<p align="center"><img src="img_gpu.png" alt="gpu" width="600"></p>
+<p style='text-align:justify;'> 
+En effet le futurs du raytracing est fortement hardware dépendant, et aujourd'hui, pour bénéficier de toutes les capacité RTX, les cartes graphiques doivent avoir des cores dédiées. Faisant d'une pierre deux coup, étant donné ques l'IA a de mêmes problématiques de calculs, NVidia a mis en place des core dédiées, RT core et Tensor core, spécifiquement conçues les tâches de raytracing et d'IA. Pour le moment, ces cartes sont chères, plus de 1000 euros pour certaines, ce qui consituera un frein au developpement de la techologie pendant quelques temps.
+</p>
+
+## Conclusion
+
+
 
 ## Références
 
