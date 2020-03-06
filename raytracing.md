@@ -4,7 +4,10 @@ title: default
 description: default
 ---
 
-[Retour sommaire](./)
+[Retour sommaire](./) 
+<p>
+<a href="./rt_denoising.html">Retour chapite Rastérisation </a>
+</p>
 
 ## Ray Tracing 
 
@@ -74,7 +77,7 @@ L'opération doit en plus être répétée à chaque rebond, pour que la lumièr
 Pour converger vers l'image finale nette, il faut donc plusieurs centaines, voir milliers de rayons par pixel. Même porté sur GPU et très bien optimisé, cela n'est pas faisable et prends plusieurs secondes de calculs pour des scènes bien fournies. D'autant plus que contrairement à la rastérisation, doubler la résolution de l'image est fatale pour le raytracing. Il faut donc trouver d'autres méthodes pour se rapprocher du temps réel, qui demande un minimum de 16 millisecondes par image pour obtenir un 60 FPS décent. 
 
 Une première méthode consiste à débruiter les images, et de ne se contenter que de quelques rayons par pixels:
- <a href="./raytracing.html"> Technique de denoising temps réel </a>. 
+ <a href="./rt_denoising.html"> Technique de denoising temps réel </a>. 
 </p>
 
 
