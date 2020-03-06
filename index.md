@@ -25,37 +25,7 @@ Avant de rentrer dans les détails techniques, commençons par analyser brièvem
 ## Sommaire
 - [La rasterisation](./rasterization.md).
 - [Le Ray Tracing](./raytracing.md).
-- [Technique de Denoising](./page1.md).
-- [Technologie RTX](./page1.md).
-- [Futur du Ray Tracing temps réel](./page1.md).
+- [Technique de Denoising](./rt_denoising.md).
+- [Technologie RTX](./rtx.md).
+- [Futur du Ray Tracing temps réel](./rt_conclusion.md).
 
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-[Link to another page](./page1.md).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Daniel-Dht/VeilleECL/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
