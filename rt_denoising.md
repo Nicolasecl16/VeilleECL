@@ -24,7 +24,7 @@ La technique de denoising consiste donc à ne lancer que quelques rayons par pix
 <p align="center"><img src="img_disney.png" alt="noisy image" width="600"></p>
 
 <p style='text-align: justify;'> 
-Cependant, ces recherches n'avaient pas pour objectif un rendu temps réel, et les algorithmes developpé rendent des images souvent dans un ordre de grandeur de une à 10 minutes par image. EN 2017, NVidia, très impliquée dans la course au Ray Tracing temps réel, a sortie un résultat de recherche présentant un denoising temp réel à un seul rayon/pixel avec une qualité comparable à un rendu à 2000 rayons/pixel. Le résultat est visible sur la vidéo ci-dessous de <i>Two Minutes Papers</i>.
+Cependant, ces recherches n'avaient pas pour objectif un rendu temps réel, et les algorithmes developpés rendent des images souvent dans un ordre de grandeur de une à plusieurs dizaines de minutes par image. EN 2017, NVidia, très impliquée dans la course au Ray Tracing temps réel, a sortie un résultat de recherche présentant un denoising temp réel à un seul rayon/pixel avec une qualité comparable à un rendu à 2000 rayons/pixel. Le résultat est visible sur la vidéo ci-dessous de <i>Two Minutes Papers</i>.
 </p>
 
 <p align="center">
@@ -38,10 +38,10 @@ En voyant cela, il est difficile de croire qu'il soit possible de passer d'un te
 </p>
 
 <p style='text-align: justify;'> 
-Depuis de nombreux autres recherches continuent d'améliorer ces résultats. Le blog de Alain Galvan, <i>Graphics Software Engineer</i>, https://alain.xyz/blog/raytracing-denoising, recense de manière approfondie toutes les techniques et performances actuelles de la recherche sur le sujet. <i>Sampling Techniques</i>, <i>Sobol Sequences</i>, <i>Spatio-Temporal Techniques</i>, <i>Motion Buffer</i>, <i>Bluring Kernels</i>, <i>Firefly Rejection</i> pour les intéréssés.
+Depuis de nombreux autres recherches continuent d'améliorer ces résultats. Le blog de <a href="https://alain.xyz/blog/raytracing-denoising"> Alain Galvan</a>, <i>Graphics Software Engineer</i>, recense de manière approfondie toutes les techniques et performances actuelles de la recherche sur le sujet. <i>Sampling Techniques</i>, <i>Sobol Sequences</i>, <i>Spatio-Temporal Techniques</i>, <i>Motion Buffer</i>, <i>Bluring Kernels</i>, <i>Firefly Rejection</i> pour les intéréssés.
 </p>
 
 <p style='text-align: justify;'> 
-Malgrés cela, des imperfections et la technologie n'est pas encore totalement prête. De plus, l'industrie du jeux vidéo n'est pas près d'abandonné la rastérisation et ses qualités. Aujourd'hui, en mars 2020, quand on parle de ray tracing dans le jeux vidéo, on parle surtout de <a href="./rtx.html"> la technologie RTX. </a>. 
+Malgrés cela, des imperfections subsistent et la technologie n'est pas encore totalement prête. De plus, l'industrie du jeux vidéo n'est pas prète d'abandonner la rastérisation et ses qualités. Ainsi, aujourd'hui, en mars 2020, quand on parle de ray tracing dans le jeux vidéo, on parle surtout de <a href="./rtx.html"> la technologie RTX. </a>. 
 </p>
 
