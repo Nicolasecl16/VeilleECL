@@ -128,3 +128,13 @@ Une première méthode consiste à débruiter les images, et de ne se contenter 
     }
   }
 ```
+
+## Références
+
+Whitted, T. 1980. An improved illumination model for shaded display. Communications of the ACM 23 (6), 343–49.
+
+Cook, R. L. 1984. Shade trees. Computer Graphics (SIGGRAPH ’84 Proceedings), 18, 223–31.
+
+Kajiya, J. T. 1986. The rendering equation. In Computer Graphics (SIGGRAPH ’86 Proceedings), 20, 143–50.
+
+Physically Based Rendering: From Theory To Implementation, © 2004-2019 Matt Pharr, Wenzel Jakob, and Greg Humphreys, http://www.pbr-book.org/3ed-2018/contents.html
