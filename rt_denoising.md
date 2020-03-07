@@ -45,3 +45,13 @@ Depuis de nombreux autres recherches continuent d'améliorer ces résultats. Le 
 Malgrés cela, des imperfections subsistent et la technologie n'est pas encore totalement prête. De plus, l'industrie du jeux vidéo n'est pas prète d'abandonner la rastérisation et ses qualités. Ainsi, aujourd'hui, en mars 2020, quand on parle de ray tracing dans le jeux vidéo, on parle surtout de <a href="./rtx.html"> la technologie RTX. </a>. 
 </p>
 
+## Références
+
+Alan Galvan, An overview of the state of the art in ray denoising, https://alain.xyz/blog/raytracing-denoising
+
+Disney, Denoising Deep Monte Carlo Renderings, et autres publications, https://studios.disneyresearch.com/category/rendering/
+
+NVidia, Interactive Reconstruction of Monte Carlo Image Sequences using a Recurrent Denoising Autoencoder, https://research.nvidia.com/sites/default/files/publications/dnn_denoise_author.pdf
+
+Koskela et al , Blockwise Multi-Order Feature Regression for Real-Time Path Tracing Reconstruction, http://www.tut.fi/vga/publications/Blockwise_Multi-Order_Feature_Regression_for_Real-Time_Path_Tracing_Reconstruction.html
+
