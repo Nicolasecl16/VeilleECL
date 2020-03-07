@@ -69,6 +69,21 @@ En effet le futurs du raytracing est fortement hardware dépendant, et aujourd'h
 
 ## Conclusion
 
+Les atouts qu'apporterait le Raytracing dans le jeux vidéos sont indéniables, on y retrouve :
+
+- des scènes hyper réalistes
+- des ombres et des réflexions réelles et quasiment parfaites
+- un gain de temps pour les artistes sur la modélisation des scènes et de l’interaction objet/lumière
+
+De plus, ce réalisme a aussi une grande importance dans l'industrie du design et de l'architecture pour la conception des maquettes et en tant qu'outil marketing.
+
+Cependant, il restent des limites solides dans la course au ray Tracing temps réel :
+- d'importante pertes de FPS
+- des scènes parfois trop sombres
+- un coût matériel élevé pour l'achat des GPU compatibles
+- on peut imaginer dans le futur que certains jeux ne soient simplement plus jouables sur des configurations classiques.
+
+Pour le moment, les principaux axes de recherches se basent donc sur le denoising ainsi que l'amélioration de la synergie Rastérisation/Ray-Tracing.
 
 
 ## Références
