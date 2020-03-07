@@ -73,6 +73,10 @@ En effet le futurs du raytracing est fortement hardware dépendant, et aujourd'h
 
 ## Références
 
+PCGamer, Ray tracing in today games, https://www.pcgamer.com/what-is-ray-tracing/
+
+Microsoft, dirextX raytracing announce, https://devblogs.microsoft.com/directx/announcing-microsoft-directx-raytracing/
+
 NVidia, BRIAN CAULFIELD, https://blogs.nvidia.com/blog/2018/03/19/whats-difference-between-ray-tracing-rasterization/
 
 NVidia, https://www.nvidia.com/en-us/geforce/news/geforce-gtx-dxr-ray-tracing-available-now/
