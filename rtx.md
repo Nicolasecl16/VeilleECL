@@ -67,8 +67,9 @@ Néanmoins, toutes les cartes graphiques ne sont pas capables de supporter le RT
 En effet le futur du raytracing est fortement hardware dépendant, et aujourd'hui, pour bénéficier de toutes les capacités RTX, les cartes graphiques doivent avoir des cores dédiées. Faisant d'une pierre deux coups, étant donné que l'IA a de mêmes problématiques de calculs, NVidia a mis en place des cores dédiées, RT core et Tensor core, spécifiquement conçues les tâches de raytracing et d'IA. Pour le moment, ces cartes sont chères, plus de 1000 euros pour certaines, ce qui constituera un frein au développement de la technologie pendant quelque temps.
 </p>
 
-## Conclusion
 <a id="destinationLinkName"></a>
+
+## Conclusion
 
 Les atouts qu'apporterait le Raytracing dans le jeux vidéos sont indéniables, on y retrouve :
 
