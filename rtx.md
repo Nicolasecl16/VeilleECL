@@ -12,7 +12,7 @@ description: default
 ## Technologie RTX 
 
 <p style='text-align: justify;'> 
-  En 2018, Microsoft annonce la sortie de DirectX Raytracing à la GDC (Game Developers Conference). C'est cette sortie qui va permettre l'implémentation du ray tracing dans les grosses liscences sorties les deux dernières années comme Battlefield 5 ou Minecraft.
+  En 2018, Microsoft annonce la sortie de DirectX Raytracing à la GDC (Game Developers Conference). C'est cette sortie qui va permettre l'implémentation du ray tracing dans les grosses licences  sorties les deux dernières années comme Battlefield 5 ou Minecraft.
 </p>
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/fr/b/b0/Directx.jpg" alt="minecraft" width="60"></p> 
@@ -22,18 +22,18 @@ description: default
 </p>
 
 <p style='text-align:justify;'> 
-  DirextX Raytracing (DXT) a été deveoppé en Collaboration avec NVidia, et constitue une extention de DirectX 12. C'est donc une pierre de plus à l'édifice d'API déja déployées comme Direct3D. Le but de DXT est donc de pourvoir aux deveoppeurs une API simple encapsulant les élément de base de l'algorthmie du Ray tracing, en portant le tout sur GPU. Cette API comprend :
+  DirextX Raytracing (DXT) a été développé en Collaboration avec NVidia, et constitue une extension de DirectX 12. C'est donc une pierre de plus à l'édifice d'API déjà déployées comme Direct3D. Le but de DXT est donc de pourvoir aux développeurs une API simple encapsulant les élément de base de L'algorithmie du Ray tracing, en portant le tout sur GPU. Cette API comprend :
   
-- une mise en place simple de pipepline de shader HSLS
-- des inttersections rayon/triangle optimisés
-- des structures d'accélération type BVH (Bounding volume hierarchy)7
+- une mise en place simple de pipeline de shader HSLS
+- des intersections rayon/triangle optimisés
+- des structures d'accélération type BVH (Bounding volume hierarchy)
 - une encapsulation de la gestion complexe d'accès mémoire et transfert de données GPU/CPU
   
-Mais le principal atout est la synergie rasterisation/ray tracing qu'offre DXT. En effet, comme on l'a vu précedemment, on ne peut pas se passer de la rasterisation aujourd'hui, et même si on le pourrait dans les prochaines années, seules les meilleurs (et plus onéreuses) cartes graphiques seraient à meme de supporter un ray tracing complet. Ainsi, il faut pourvoir mixer les deux technologies, et c'est ce qu'apporte DXR. Une des applications possible est de calculer le rendu sans ombres grâce à la rasterisation, et d'implémenter celles-ci grâce au raytracing. Il en va de même pour les surface transparente ou réfléchissantes: on détermine sur quels pixel de l'image les rayons doivent être lancés grâce à la rastérisation pour ensuite laisser place au raytracing.
+Mais le principal atout est la synergie rasterisation/ray tracing qu'offre DXT. En effet, comme on l'a vu précédemment, on ne peut pas se passer de la rastérisation aujourd'hui, et même si on le pourrait dans les prochaines années, seules les meilleurs (et plus onéreuses) cartes graphiques seraient à même de supporter un ray tracing complet. Ainsi, il faut pourvoir mixer les deux technologies, et c'est ce qu'apporte DXR. Une des applications possible est de calculer le rendu sans ombres grâce à la rastérisation, et d'implémenter celles-ci grâce au ray racing. Il en va de même pour les surface transparente ou réfléchissantes : on détermine sur quels pixel de l'image les rayons doivent être lancés grâce à la rastérisation pour ensuite laisser place au raytracing.
 </p>
 
 <p style='text-align:justify;'> 
-Un autre atout pour Microsoft est le timing de la sortie d prochaine XBox, qui pourra bénificer de la technologie DXT. Plusieurs vidéos sont disponibles en ligne (liens ci-dessous), faisant l'étalage des possibilités offertes par DXT. 
+Un autre atout pour Microsoft est le timing de la sortie d prochaine XBox, qui pourra bénéficier de la technologie DXT. Plusieurs vidéos sont disponibles en ligne (liens ci-dessous), faisant l'étalage des possibilités offertes par DXT. 
 </p>
 
 <p align="center"> <i>SEED, Electronic Arts :</i></p>
@@ -51,7 +51,7 @@ Un autre atout pour Microsoft est le timing de la sortie d prochaine XBox, qui p
 </p>
 
 <p style='text-align:justify;'> 
-La technologie RTX mise en vant par Nvidia est une plateforme de devoppement specifiquement dédié au raytracing pilotable depuis DIrextX. C'est cette technologie à la base des images que l'on peut voir circulé un peu patout sur internet, et qui font grands bruits sur les grosses liscences telles que Mincraft. On a la possibilité d'activer ou non le ray Tracing. Si on le fait c'est souvent au détriment du nombre de FPS, mais comme on peut le voir sur les images ci-dessous, on obtient un gain signigficatif de réalisme, notemment sur les reflets.
+  La technologie RTX mise en avant par Nvidia est une plateforme de développement spécifiquement dédié au raytracing pilotable depuis DirextX. C'est cette technologie à la base des images que l'on peut voir circulé un peu partout sur internet, et qui font grands bruits sur les grosses licences telles que Minecraft. On a la possibilité d'activer ou non le Ray Tracing. Si on le fait c'est souvent au détriment du nombre de FPS, mais comme on peut le voir sur les images ci-dessous, on obtient un gain significatif de réalisme, notamment sur les reflets.
 </p>
 
 <p align="center"><img src="img_RT_minecraft.png" alt="minecraft" width="600"></p>
@@ -64,7 +64,7 @@ Néanmoins, toutes les cartes graphiques ne sont pas capables de supporter le RT
 
 <p align="center"><img src="img_gpu.png" alt="gpu" width="600"></p>
 <p style='text-align:justify;'> 
-En effet le futurs du raytracing est fortement hardware dépendant, et aujourd'hui, pour bénéficier de toutes les capacité RTX, les cartes graphiques doivent avoir des cores dédiées. Faisant d'une pierre deux coup, étant donné ques l'IA a de mêmes problématiques de calculs, NVidia a mis en place des core dédiées, RT core et Tensor core, spécifiquement conçues les tâches de raytracing et d'IA. Pour le moment, ces cartes sont chères, plus de 1000 euros pour certaines, ce qui consituera un frein au developpement de la techologie pendant quelques temps.
+En effet le futur du raytracing est fortement hardware dépendant, et aujourd'hui, pour bénéficier de toutes les capacités RTX, les cartes graphiques doivent avoir des cores dédiées. Faisant d'une pierre deux coups, étant donné que l'IA a de mêmes problématiques de calculs, NVidia a mis en place des cores dédiées, RT core et Tensor core, spécifiquement conçues les tâches de raytracing et d'IA. Pour le moment, ces cartes sont chères, plus de 1000 euros pour certaines, ce qui constituera un frein au développement de la technologie pendant quelque temps.
 </p>
 
 ## Conclusion
@@ -77,7 +77,7 @@ Les atouts qu'apporterait le Raytracing dans le jeux vidéos sont indéniables, 
 
 De plus, ce réalisme a aussi une grande importance dans l'industrie du design et de l'architecture pour la conception des maquettes et en tant qu'outil marketing.
 
-Cependant, il restent des limites solides dans la course au ray Tracing temps réel :
+Cependant, il reste des limites solides dans la course au ray Tracing temps réel :
 - d'importante pertes de FPS
 - des scènes parfois trop sombres
 - un coût matériel élevé pour l'achat des GPU compatibles
