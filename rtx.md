@@ -9,17 +9,18 @@ description: default
 <a href="./rt_denoising.html"> Retour chapitre Débruitage </a>. 
 </p>
 
-## Technologie RTX 
+## DirectX RayTracing
 
 <p style='text-align: justify;'> 
-  En 2018, Microsoft annonce la sortie de DirectX Raytracing à la GDC (Game Developers Conference). C'est cette sortie qui va permettre l'implémentation du ray tracing dans les grosses licences  sorties les deux dernières années comme Battlefield 5 ou Minecraft.
+  En 2018, Microsoft annonce la sortie de DirectX Raytracing à la GDC (Game Developers Conference). 
+</p>
+
+<p style='text-align:justify;'> 
+ 
+  Microsoft DirectX est une collection de bibliothèques destinées à la programmation d’applications multimédia, plus particulièrement de jeux ou de programmes faisant intervenir de la vidéo, sur les plates-formes Microsoft (Xbox, systèmes d’exploitation Windows). Sortie en 1995, DirextX est aujourd'hui largement répandue et utilisée dans la plupart des moteurs de jeux. 
 </p>
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/fr/b/b0/Directx.jpg" alt="minecraft" width="60"></p> 
-
-<p style='text-align:justify;'> 
-  Microsoft DirectX est une collection de bibliothèques destinées à la programmation d’applications multimédia, plus particulièrement de jeux ou de programmes faisant intervenir de la vidéo, sur les plates-formes Microsoft (Xbox, systèmes d’exploitation Windows). Sortie en 1995, DirextX est aujourd'hui largement répandue et utilisée dans la plupart des moteurs de jeux. 
-</p>
 
 <p style='text-align:justify;'> 
   DirextX Raytracing (DXT) a été développé en Collaboration avec NVidia, et constitue une extension de DirectX 12. C'est donc une pierre de plus à l'édifice d'API déjà déployées comme Direct3D. Le but de DXT est donc de pourvoir aux développeurs une API simple encapsulant les élément de base de L'algorithmie du Ray tracing, en portant le tout sur GPU. Cette API comprend :
@@ -50,8 +51,10 @@ Un autre atout pour Microsoft est le timing de la sortie d prochaine XBox, qui p
   </a>.
 </p>
 
+## Technologie RTX 
+
 <p style='text-align:justify;'> 
-  La technologie RTX mise en avant par Nvidia est une plateforme de développement spécifiquement dédié au raytracing pilotable depuis DirextX. C'est cette technologie à la base des images que l'on peut voir circulé un peu partout sur internet, et qui font grands bruits sur les grosses licences telles que Minecraft. On a la possibilité d'activer ou non le Ray Tracing. Si on le fait c'est souvent au détriment du nombre de FPS, mais comme on peut le voir sur les images ci-dessous, on obtient un gain significatif de réalisme, notamment sur les reflets.
+  La technologie RTX mise en avant par Nvidia est une plateforme de développement spécifiquement dédié au raytracing pilotable depuis DirextX. C'est cette sortie qui va permettre l'implémentation du ray tracing dans les grosses licences sorties les deux dernières années comme Battlefield 5 ou Minecraft Windows 10 Edition. On a la possibilité d'activer ou non le Ray Tracing. Si on le fait c'est souvent au détriment du nombre de FPS, mais comme on peut le voir sur les images ci-dessous, on obtient un gain significatif de réalisme, notamment sur les reflets.
 </p>
 
 <p align="center"><img src="img_RT_minecraft.png" alt="minecraft" width="600"></p>
