@@ -25,6 +25,7 @@ La deuxième étape est la plus cruciale, dans le sens où c'est elle qui minimi
   Il y a cependant une limite au réalisme que peut atteindre la rastérisation. Comme on peut l'observer sur le schéma ce-dessus, seuls les objets visibles sont sélectionnés et mappés, tout autre objet du monde 3D n'a aucun impact sur l'image finale : un objet à la surface réfléchissante ne pourra projeter véritablement un objet en face de lui si celui-ci se trouve en dehors du champs de vision la caméra. Il existe évidemment des <i>hacks</i> qui permettent de simuler de tels effets, mais ceux-ci sont loin d'être réalistes. C'est là qu'intervient <a href="./raytracing.html"> le Ray-Tracing </a>. 
 </p>
 
+
 ## Références
 
 WIkipedia, Rasterisation, https://fr.wikipedia.org/wiki/Rast%C3%A9risation
