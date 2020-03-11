@@ -27,9 +27,12 @@ La deuxième étape est la plus cruciale, dans le sens où c'est elle qui minimi
 
 
 ## Références
-
-WIkipedia, Rasterisation, https://fr.wikipedia.org/wiki/Rast%C3%A9risation
-
-Microsoft, dirextX raytracing announce, https://devblogs.microsoft.com/directx/announcing-microsoft-directx-raytracing/
-
-NVidia, BRIAN CAULFIELD, https://blogs.nvidia.com/blog/2018/03/19/whats-difference-between-ray-tracing-rasterization/
+<p>
+  WIkipedia, Rasterisation, https://fr.wikipedia.org/wiki/Rast%C3%A9risation
+</p>
+<p>
+  Microsoft, dirextX raytracing announce, https://devblogs.microsoft.com/directx/announcing-microsoft-directx-raytracing/
+</p>
+<p>
+  NVidia, BRIAN CAULFIELD, https://blogs.nvidia.com/blog/2018/03/19/whats-difference-between-ray-tracing-rasterization/
+</p>
